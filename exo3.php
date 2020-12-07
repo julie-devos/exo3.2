@@ -17,14 +17,14 @@ $gender= $genderArray[$genderRand];
 if ($age<20) {
   echo "Vous avez moins de 20ans, roulez jeunesse!";
 
-} elseif ($gender == "Homme") {
-  echo "les hommes ne sont pas admis.";
+} elseif ($age>=20) {
+  echo "Tout comme moi, vous n'avez plus 20 ans !";
 
 } elseif ($gender == "Femme") {
   echo "Nous vaincrons !";
 
 } else {
-  echo "Tout comme moi, nous n'avons plus 20 ans !";
+  echo "les hommes ne sont pas admis.";
 }
 ?>
 
